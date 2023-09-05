@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: lightcyan;
+}
+.nav {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 23px;
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+  }
+body{
+    text-align: center;
+    position: relative;
+    background-color:lightblue;
+}
+h2{
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul{
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 45%;
+}
+ol{
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 45%;
+}
+table{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.naviAnchor{
+  margin-right: 50px;
+  margin-left: 53px;
+  text-decoration: none;
+  background-color: lightblue;
+  color: white;
+}
+.naviAnchor:hover{
+  transform: scale(3.1);
+}
+#contacto{
+  font-size: 17px;
+  text-align: center;
+}
+.wrapper{
+  margin: 15px auto;
+  width: 70%;
+}
+#billy{
+  border: 2px solid;
+  border-radius: 150px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#billy:hover{
+  transform: scale(1.3);
+}
+.textBox p{
+  padding-top: 40px;
+  transition: all 0.3s;
+}
+.textBox p:hover{
+  transform: scale(1.3);
+}
+#formulario{
+  
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+button{
+  background-color:salmon;
+  color: white;
+  padding: 8px 16px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 150px;
+}
+
+legend{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+label{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+
